@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    background-color: #FFFFFF;
+    height: 783px;
+}
+
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #131313;
+    height: 883px;
+    padding-top: 107px; 
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 600px;
+    padding-bottom: 18px;
+    display: inline-flex;
+}
+
+.line {
+    background-image: url(../images/line\ 2.svg);
+    width: 92px;
+    height: 1px;
+    margin-top: -40px;
+    margin-left: 161px;
+    position: absolute;
+}
+
+.tab {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    transition: 1s ease;
+}
+
+.tab:hover {
+    text-decoration: underline solid 1px;
+    text-underline-offset: 7px;
+    color: #E3B873;
+}
+
+.active-tab {
+    text-decoration: underline solid 1px;
+    text-underline-offset: 7px;
+    color: #E3B873;
+}
+
+.slider {
+    width: 679px;
+    height: 482px;
+    margin-top: 20px;
+    margin-left: 626px;
+    overflow: hidden;
+}
+
+.slider_line {
+    width: 1358px;
+    height: 482px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.subtext {
+    padding-left: 134px;
+    margin-top: -518px;
+}
+
+.title_2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    margin-top: 34px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.info {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    height: 22px;
+    margin-top: 40px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 134px;
+    margin-right: 730px;
+    margin-bottom: 9px;
+}
+
+.left_arrow {
+    background: url(../images/left_arrow.svg);
+    width: 42px;
+    height: 14px;
+    margin-top: 72px;
+    margin-left: 135px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+}
+
+.right_arrow {
+    background: url(../images/right_arrow.svg);
+    width: 42px;
+    height: 14px;
+    margin-left: 299px;
+    margin-top: 72px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+}
+
+.slider_dot {
+    margin-top: 75px;
+    margin-left: 199px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 1s ease;
+}
+
+.dot:hover {
+    background-color: #FFFFFF;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
